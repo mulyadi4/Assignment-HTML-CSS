@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    
+    
   </head>
   <body>
     <div class="flex items-center justify-center min-h-screen bg-white ">
@@ -19,8 +22,8 @@
           <span class="font-light text-black mb-8">
             Today is a new day. It's your day. You shape it. Sign in to start managing your projects.
           </span>
-          <div class="py-4">
-            <span class="mb-2 text-md">Email</span>
+          <div class="formroboto py-4">
+            <span class="mb-2  text-md">Email</span>
             <input
               type="text"
               class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
@@ -29,7 +32,7 @@
               placeholder="Example@email.com"
             />
           </div>
-          <div class="py-4">
+          <div class="formroboto py-4">
             <span class="mb-2 text-md">Password</span>
             <input
               type="password"
@@ -39,7 +42,7 @@
               placeholder="At least 8 characters"
               />
           </div>
-          <div class="text-right w-full py-4 font-bold text-blue-800  text-md">
+          <div class="text-right w-full formroboto py-4 text-blue-800  text-md">
             <a href="#">Forgot password?</a>
           </div>
           <button 
@@ -47,26 +50,27 @@
           >
             Sign in
           </button>
-          <div class="text-center text-gray-400 pb-32">
+          <div class="text-center formroboto text-gray-400 pb-32">
             Dont'have an account?
             <span class="font-bold text-blue-800">
               <a href="#">Sign up</a>
             </span>
           </div>
 
-          <footer class="text-center text-gray-400">
+          <footer class="text-center formroboto text-gray-400">
             <p>© 2023 ALL RIGHTS RESERVED</p>
           </footer>
           
         </div>
         <!-- {/* right side */} -->
-        <div class="relative">
-          <img
+        <div class="relative container">
+       
+          <img class=" h-full rounded-2xl md:block object-cover"
             src="Art.png"
-            alt="Att"
-            class=" h-full rounded-2xl md:block object-cover"
+            alt="Art"
+            
           />
-
+       
         </div>
       </div>
     </div>
